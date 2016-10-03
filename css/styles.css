@@ -178,6 +178,7 @@ a.navbar-link {
   top: -50px;
 }
 
+
 .navbar .links-container {
   position: flex;
   height: 100px;
@@ -303,6 +304,15 @@ textarea {
 .hours {
   padding-bottom: 90px;
 }
+
+#map_container{
+  position: relative;
+  padding-top: -50px;
+}
+#map{
+    min-height: 200px;
+    color: black;
+}
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
@@ -354,7 +364,9 @@ h1 {
     background-size: cover; }
   #slide02 .bcg {
     background: url(../img/instore2.png) no-repeat center center;
-    background-size: cover; }
+    background-size: cover;
+    min-height: 400px; }
+
   #slide03 .bcg {
     background: url(../img/inside_shop_angle.png) no-repeat center center;
     background-size: cover;
@@ -486,8 +498,7 @@ padding-right: 20px;
 }
 
 .min_height {
-  min-height: 800px;
-}
+  min-height: 450px;}
 /* =Main */
 p {
   font-size: 16px; }
@@ -508,7 +519,7 @@ p {
     top: 10%; }
   .slide#slide02 .wrapper {
     position: absolute;
-    bottom: 10%; }
+    bottom: 10%;}
   .slide#slide03 .button {
     border-color: #ffffff;
     color: #212121;
@@ -800,12 +811,15 @@ p {
     @media (max-width: 650px){
       .desktop-only{
         display: none;
+        color:black;
+
       }
 
     }
     @media (min-width: 650px){
       .mobile-only{
         display: none;
+
       }
     }
 
