@@ -564,13 +564,14 @@ p {
 
 /* =Content Block */
 .content-block {
-  background-color: black;
-  max-height: 500px;
-  min-heght:400px;
+  background-color: #f7f8f9;
+  min-heght:200px;
+  height: 200px;
+
   /*color: rgba(255, 255, 255, 0.2);*/
   }
   .content-block .wrapper {
-    padding: 200px 0;
+    /*padding: 200px 0;*/
     text-align: center;
     top: 20%;
     color: white;
@@ -865,11 +866,8 @@ p {
       }
 
       #cb01 .wrapper{
-        margin-top: 120px;
-        height: 400px;
       }
       #cb01 {
-        margin-top: -120px;
       }
 
       .scroll-down {
