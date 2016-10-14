@@ -3510,6 +3510,10 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+.dropdown-backdrop {
+    position: static;
+}
+
 .dropup,
 .dropdown {
   position: relative;
