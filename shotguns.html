@@ -14,16 +14,27 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed:700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+  	$(".dropdown-toggle").dropdown();
+  });
+  </script>
+  <style type="text/css">
+  	.bs-example{
+      	margin: 20px;
+      }
+  </style>
+
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
 
         <div class="navigation">
         <div class="links-container">
@@ -39,39 +50,52 @@
               </ul>
               <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" href="#"><strong><span class="caret">SHOP!</span></strong> </a>
            </li>
-           <li><a href="index.html#slide01" class="navbar-link">Location</a></li>
-           <li><a href="index.html#slide02" class="navbar-link">Hours</a></li>
-           <li><a href="index.html#slide03" class="navbar-link">Reviews</a></li>
-           <li><a href="index.html#intro" class="navbar-link">About</a></li>
-       </ul>
-     </div>
-     <div class="mobile-only">
-                 <li class="dropdown" id="gun_drop" style="top:-55px; font-size:25px;list-style:none;">
-                   <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" style="margin-right:10px;" href="#"><strong><span class="caret">Menu</span></strong>
-                   <ul class="dropdown-menu" style="padding-right:10px;" role="menu">
-                     <li class="pull-left" style="padding-right:10px;"><a href="#intro">About </a></li>
-                     <li class="pull-left"><a href="index.html#slide01"> Location </a></li>
-                     <li class="pull-left"><a href="index.html#slide02"> Hours </a></li>
-                     <li class="pull-left"><a href="index.html#slide03"> Reviews </a></li>
-                        <li class="pull-left" style="padding-right:10px;"><a href="shotguns.html"> Shotguns </a></li>
-                        <li class="pull-left"><a href="rifles.html"> Rifles </a></li>
-                        <li class="pull-left"><a href="pistol.html"> Pistols </a></li>
-                        <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
-                      </ul>
-                   </li>
+              <li><a href="index.html#slide01" class="navbar-link">Location</a></li>
+              <li><a href="index.html#slide02" class="navbar-link">Hours</a></li>
+              <li><a href="index.html#slide03" class="navbar-link">Reviews</a></li>
+              <li><a href="index.html#intro" class="navbar-link">About</a></li>
+          </ul>
+        </div>
+        <div class="mobile-only">
+                <li class="dropdown" id="gun_drop" style="top:-55px; font-size:25px;list-style:none;">
+                  <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" style="margin-right:10px;" href="#"><strong><span class="caret">Menu</span></strong>
+                    <ul class="dropdown-menu" style="padding-right:10px;" role="menu">
+                      <li class="pull-left" style="padding-right:10px;"><a href="#intro">About </a></li>
+                      <li class="pull-left"><a href="index.html#slide01"> Location </a></li>
+                      <li class="pull-left"><a href="index.html#slide02"> Hours </a></li>
+                      <li class="pull-left"><a href="index.html#slide03"> Reviews </a></li>
+                      <li class="pull-left"><a href="shotguns.html"> Shotguns </a></li>
+                      <li class="pull-left"><a href="rifles.html"> Rifles </a></li>
+                      <li class="pull-left"><a href="pistol.html"> Pistols </a></li>
+                      <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
+                    </ul>
+               </li>
        </div>
       </div>
     </div><!--navigation  -->
+        <div id="intro" class="header-container fs" >
+          <div class="bcg" style="transform: translate(0,0,0); !important">
+          <div >
+            <a href="http://www.armoryup.com/" style="opacity: none !important;">
+            <img src="img/AUbanner.jpg" alt="banner" style="height:auto;max-height:300px;max-width:750px;width:100%;"></a>
+          </div>
+            <!-- <div class="box"> -->
+            <div class="well">
+                <p style="color:black;">Armory Up, sells dependable battle tested firearms online and in our store. We make purchasing firearms a simple process.
+               located in Southlake, TX across 114 from Southlake Town Square on Kimball AVE. Located next to Grapevine and Colleyville and just east of Trophy Club and Roanoke, serving the DFW metroplex and all of North Texas we are centrally located and easy to find!</p>
+            </div>
+            <a href="#cb01"><div class="glyphicon glyphicon-menu-down scroll-down" style="color:white; font-size:50px; width:100px; height: auto;"> </div></a>
+          </div>
+      </div>
+            <article id="social" class="slide fs min_height social">
+              <div class="bcg"></div>
+              <div class="wrapper">
+                  <iframe src='https://www.juicer.io/api/feeds/armoryup/iframe' frameborder='0' width='100%' height='500px' style='display:block;margin:10 auto;' ></iframe>
+                <div>
+                  <a href="#foot-er"><div class="glyphicon glyphicon-menu-down scroll-down" style="color:white; font-size:50px; width:100px; height: auto;"> </div></a>
 
-        <div id="intro" class="header-container fs">
-            <div class="bcg"></div>
-            <header class="wrapper">
-                <h2 class="title">shotguns: Browse our inventory of shotguns <button><a style="text-decoration: none; color: #42acb3;"href="http://www.armoryup.com/department.shotguns">ArmoryUp.com</a></h2></button>
-                <p> shotguns content shotguns content shotguns content shotguns content shotguns content shotguns content</p>
-            </header>
-            <!-- <span class="scroll-hint">Scroll</span> -->
-        </div>
 
+            </article>
 
         <div id="foot-er" class="footer-container">
             <footer class="wrapper">
@@ -82,7 +106,7 @@
             <a href="#"><div class="glyphicon glyphicon-menu-up scroll-down" style="color:white; font-size:50px; width:100px; height: auto;"> </div></a>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>

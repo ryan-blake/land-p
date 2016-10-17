@@ -14,64 +14,103 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed:700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  	   $(".dropdown-toggle").dropdown();
+    });
+  </script>
+    <style type="text/css">
+    	.bs-example{
+        	margin: 20px;
+        }
+    </style>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-
-        <div class="navigation">
-        <div class="links-container">
-          <ul class="nav-links" style="list-style-type:none">
-            <a href="index.html"><h3 id="nav_logo">Armory Up</h3></a>
-            <div class="desktop-only">
-            <li class="dropdown" id="gun_drop" style="top:-65px; font-size:20px;">
-              <ul class="dropdown-menu" role="menu">
-                <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
-                <li class="pull-left"><a href="pistols.html"> Pistols </a></li>
-                <li class="pull-left" style="padding-right: 10px;"><a href="rifles.html"> Rifles </a></li>
-                <li class="pull-left"><a href="shotguns.html"> Shotguns </a></li>
-              </ul>
-              <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" href="#"><strong><span class="caret">SHOP!</span></strong> </a>
-           </li>
-           <li><a href="index.html#slide01" class="navbar-link">Location</a></li>
-           <li><a href="index.html#slide02" class="navbar-link">Hours</a></li>
-           <li><a href="index.html#slide03" class="navbar-link">Reviews</a></li>
-           <li><a href="index.html#intro" class="navbar-link">About</a></li>
-       </ul>
-     </div>
-     <div class="mobile-only">
-                 <li class="dropdown" id="gun_drop" style="top:-55px; font-size:25px;list-style:none;">
-                   <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" style="margin-right:10px;" href="#"><strong><span class="caret">Menu</span></strong>
-                   <ul class="dropdown-menu" style="padding-right:10px;" role="menu">
-                     <li class="pull-left" style="padding-right:10px;"><a href="#intro">About </a></li>
-                     <li class="pull-left"><a href="index.html#slide01"> Location </a></li>
-                     <li class="pull-left"><a href="index.html#slide02"> Hours </a></li>
-                     <li class="pull-left"><a href="index.html#slide03"> Reviews </a></li>
-                        <li class="pull-left"><a href="shotguns.html"> Shotguns </a></li>
-                        <li class="pull-left"><a href="rifles.html"> Rifles </a></li>
-                        <li class="pull-left"><a href="pistol.html"> Pistols </a></li>
-                        <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
-                      </ul>
-                   </li>
-       </div>
-      </div>
-    </div><!--navigation  -->
-
-            <div id="intro" class="header-container fs">
-                <div class="bcg"></div>
-                <header class="wrapper">
-                    <h2 class="title">Rifles: Browse our inventory of Rifles <button><a style="text-decoration: none; color: #42acb3;"href="http://www.armoryup.com/department.rifles">ArmoryUp.com</a></h2></button>
-                    <p> Rifles content Rifles content Rifles content Rifles content Rifles content Rifles content</p>
-                </header>
-                <!-- <span class="scroll-hint">Scroll</span> -->
+              <div class="navigation">
+              <div class="links-container">
+                <ul class="nav-links" style="list-style-type:none">
+                  <a href="index.html"><h3 id="nav_logo">Armory Up</h3></a>
+                  <div class="desktop-only">
+                  <li class="dropdown" id="gun_drop" style="top:-65px; font-size:20px;">
+                    <ul class="dropdown-menu" role="menu">
+                      <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
+                      <li class="pull-left"><a href="pistols.html"> Pistols </a></li>
+                      <li class="pull-left" style="padding-right: 10px;"><a href="rifles.html"> Rifles </a></li>
+                      <li class="pull-left"><a href="shotguns.html"> Shotguns </a></li>
+                    </ul>
+                    <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" href="#"><strong><span class="caret">SHOP!</span></strong> </a>
+                 </li>
+                    <li><a href="index.html#slide01" class="navbar-link">Location</a></li>
+                    <li><a href="index.html#slide02" class="navbar-link">Hours</a></li>
+                    <li><a href="index.html#slide03" class="navbar-link">Reviews</a></li>
+                    <li><a href="index.html#intro" class="navbar-link">About</a></li>
+                </ul>
+              </div>
+              <div class="mobile-only">
+                      <li class="dropdown" id="gun_drop" style="top:-55px; font-size:25px;list-style:none;">
+                        <a class="dropdown-toggle" style="padding-right:100px;" data-toggle="dropdown" style="margin-right:10px;" href="#"><strong><span class="caret">Menu</span></strong>
+                          <ul class="dropdown-menu" style="padding-right:10px;" role="menu">
+                            <li class="pull-left" style="padding-right:10px;"><a href="#intro">About </a></li>
+                            <li class="pull-left"><a href="index.html#slide01"> Location </a></li>
+                            <li class="pull-left"><a href="index.html#slide02"> Hours </a></li>
+                            <li class="pull-left"><a href="index.html#slide03"> Reviews </a></li>
+                            <li class="pull-left"><a href="shotguns.html"> Shotguns </a></li>
+                            <li class="pull-left"><a href="rifles.html"> Rifles </a></li>
+                            <li class="pull-left"><a href="pistol.html"> Pistols </a></li>
+                            <li class="pull-left"><a href="gunsmith.html"> Gun Smithing </a></li>
+                          </ul>
+                     </li>
+             </div>
             </div>
+          </div><!--navigation  -->
+        <div class="rifle" style=" margin-top:30px; background-color:white; !important" class="header-container fs" >
+          <!-- <div >
 
+           @media (833px) med-small screen min-height needs to be longer
+
+            <a href="http://www.armoryup.com/" style="opacity: none !important;">
+            <img src="img/AUbanner.jpg" alt="banner" style="height:auto;max-height:300px;max-width:750px;width:100%;"></a>
+          </div> -->
+            <!-- <div class="box"> -->
+            <div class="well">
+                  <h3> Early history: </h3>
+                  <p style="color:black;">
+                    The practicality of rifles became apparent to all military strategist in the year 1364, and slowly became the choice of weapon for soldiers and sportsman alike. Small arms became more practical with the advent of the matchlock musket. Prior to the first musket (the matchlock), guns were literally handheld cannons, large diameter hunks of iron that had a flimsy broomstick like handles, and were fired by fuse, typically requiring more than one person to operate. Despite this drawback, the military strategist knew that this new invention would become something that would shake the earth in the field of warfare. The year 1364 was the first time that one could shoulder the firearm and trigger the ignition effectively. This mechanism was the most simplistic in design, it had a lever like trigger that actuated movement of yet another lever that had a long, burning wick, that touched a small load of powder located outside the barrel, that when burned, ignited the load in the barrel propelling any object in the barrel. Though revolutionary at the time, it was apparent that there were problems, like accuracy, loading through the muzzle, and lack of reliability.</p>
+            </div>
+            <div class="well">
+                  <h3> Modern Rifles:</h3>
+                  <p style="color:black;">
+                    Today’s firearm market provides cost effective and reliable rifles. These new rifles include features like, safeties, sights, magazines and more; allowing the user to safely and comfortably operate a firearm. Loading from the muzzle has become antiquated, being replaced by guns that can be reloaded by a simple operation of a lever, bolt, ect. Additionally, there are semi-auto rifles that provide the easiest use, and reliability that matches the other actions such as bolt action and lever action.</p>
+            </div>
+            <div class="well">
+                  <h3> Semi-auto:</h3>
+                  <p style="color:black;">
+                    able to fire repeatedly but requiring release and another pressure of the trigger for each successive shot
+                                 The semi-auto rifle is not just tactical, in addition it’s also practical, providing an ease of use, versatility, and reliability. Semi-automatic rifles are enjoyed by a range of users varying from novice to expert marksmen. From the new generation of Ar-15 rifles to grandad’s Ruger Mini 14, these rifles have been recognized as efficient, and fun to shoot rifles. AR-15 rifles are made by a broad mass of manufacturers, like Armalite, Stag Arms, Smith & Wesson, and Battle Arms. The AR-15 shoots the 556NATO as well as the .223, and 300 Blackout. If a larger caliber is more desirable, the AR-10 is capable of shooting the ever so popular 308NATO, of which is the choice of caliber for snipers, and big game hunters alike. The AK47, and it’s variants are another popular rifle, that shoots the 7.62x39r. With its roots as a military use rifle, the modern market provides the AK in a semi-auto configuration that available to the civilian market in the original caliber, 7.62x39r. For those who want a smaller caliber, the AK74 is chambered for the 5.45x39r. There are also non-AR, or AK semi auto rifles that are just as popular, as mentioned above, the Ruger Mini 14 is another moderate caliber semi-auto rifle. In addition, the list continues to other models like the Springfield SOCOM rifles (the modern m14 rifle), shooting the 308NATO. One of the world’s most popular semi-automatic rifle is the Ruger 10/22, available in a takedown configuration, popular among almost every collector, and sportsmen. </p>
+             </div>
+             <div class="well">
+                   <h3> Bolt-Action:</h3>
+                   <p style="color:black;">
+                     Loaded by means of a manually operated bolt
+                                 A bolt action rifle is a type of firearm action in which the weapon's bolt is operated manually by the opening and closing of the breech (barrel) with a small handle, most commonly placed on the right-hand side of the weapon (for right-handed users). Used by hunters, marksmen, and snipers, the bolt action rifle displays its practical function using its arguably simplistic repeating system. Classics like the Remington Model 700, are still available in the market as well as modern long distance precision/competition rifles like the Ruger RPR chambered in 6.5Creedmore, 308Win, and 243 </p>
+             </div>
+             <div class="well">
+                   <h3> Lever-Action:</h3>
+                   <p style="color:black;">
+                     rifle action in which the extracting and ejecting of the shell case and the re-cocking of the weapon are accomplished by a hand-operated lever arm in front of the trigger housing
+                                  Though most often affiliated with the nostalgia of the wild west, it is still practical for today’s hunter, sportsman, and marksman. The lever gun has been given modernized by companies like Henry, Rossi, and Marlin, making reliable rifles. In the past, the lever action rifle couldn’t shoot pointed bullets due to the tubular magazine that is on the rifles. This has been overcome by the creation of FTX ammunition, for those who want some improvement in accuracy.  Available in various calibers, ranging from 22lr, to 45-70gov. Each of the major manufacturers of lever-action rifles make an “all weather” variant, typically featuring a rubber/ rubber coated stock, companied by a rust resistant finish. The variety of calibers, barrel lengths, and finishes, attract an equally diverse crowd of people.</p>
+             </div>
+            </div>
+            </div>
 
 
         <div id="foot-er" class="footer-container">
@@ -83,7 +122,7 @@
             <a href="#"><div class="glyphicon glyphicon-menu-up scroll-down" style="color:white; font-size:50px; width:100px; height: auto;"> </div></a>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
