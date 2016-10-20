@@ -848,6 +848,7 @@ p {
         display: none;
         color:black;
       }
+
       div#intro.header-container {
         min-height:630px;
         opacity: .89;
