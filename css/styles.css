@@ -504,6 +504,12 @@ span.caret:hover {
   color: #fff;
 }
 
+#center-button {
+  position: absolute;
+  display: inline;
+  left: calc(50% - 149px);
+}
+
 .box {
 position: absolute;
 /*clear: all;
