@@ -206,12 +206,12 @@ div .bcg {
 .navigation.sticky {
   clear:all;
   font-size: 29px;
-  height: 20px;
+  height: 10px;
   background: teal;
   text-align: left;
   padding-right: 20px;
   padding-bottom: 55px;
-  transition: all .2s ease-in;
+  transition: all .0s ease-in;
 }
 
 .navigation.sticky h3 {
@@ -232,6 +232,11 @@ div .bcg {
   transition: all 0s ease-in;
   font-size: 15px;
   top: -50px;
+}
+
+.sticky .caret {
+  top:11px;
+  right:99px;
 }
 
 .links-container .navbar-link {
@@ -481,8 +486,16 @@ nav {
     margin-top: 15px;
     margin-bottom: -20px !important;
 }
+span.caret {
+position:absolute;
+right: 100px;
+top: 12px;
+font-weight: lighter;
+}
+
 span.caret:hover {
   color:red;
+
 }
 #submit {
   color: #fff;
