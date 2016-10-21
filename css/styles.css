@@ -255,9 +255,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-.links-container .navbar-link:hover {
- color: rgb(420,50,22);
-}
+
 
 .links-container .navbar-link:active {
  background-color: white;
@@ -378,16 +376,16 @@ h1 {
   #slide01 .bcg {
     background: url(../img/instore.png) no-repeat center center;
     background-size: cover;
-    min-height: 400px; }
+    min-height: 410px; }
   #slide02 .bcg {
     background: url(../img/instore2.png) no-repeat center center;
     background-size: cover;
-    min-height: 400px; }
+    min-height: 410px; }
 
   #slide03 .bcg {
     background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 400px;
+    min-height: 410px;
    }
 
      #social .bcg {
@@ -493,10 +491,6 @@ top: 12px;
 font-weight: lighter;
 }
 
-span.caret:hover {
-  color:red;
-
-}
 #submit {
   color: #fff;
   background-color: #003F87	;
