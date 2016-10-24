@@ -355,7 +355,7 @@ h1 {
 
 #intro .bcg {
  min-height: 527px;
- top:60px;
+ top:59px;
 }
 
 .bcg {
@@ -942,7 +942,16 @@ p {
     }
 
   }
-  @media only screen and (max-width: 500px) {
+  @media (max-width: 200px) {
       .navigation {
-          width:100%;
+          visibility:hidden;
+      }
+
+      .navigation.sticky {
+        display: none;
+      }
+      /*make positions non fixed?*/
+
+      div#intro {
+        min-height:690px;
       }
