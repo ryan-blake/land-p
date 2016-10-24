@@ -156,19 +156,19 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
-  .navigation {
-    position: fixed;
-    top:0; left: 0;
-    width: 100%;
-    text-align: left;
-    font-size: 30px;  line-height: 30px;
-    height: 60px;
-    background: #fff;
-    font-family: 'PT Sans', sans-serif;
-    transition: all 0s ease-in;
-    z-index: 100;
-    padding-bottom: 30px;
-  }
+.navigation {
+  position: fixed;
+  top:0; left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 30px;  line-height: 30px;
+  height: 60px;
+  background: #fff;
+  font-family: 'PT Sans', sans-serif;
+  transition: all 0s ease-in;
+  z-index: 100;
+  padding-bottom: 30px;
+}
 
 a.navbar-link {
   font-size: 35px;
@@ -176,7 +176,6 @@ a.navbar-link {
   font-family: sans-serif;
   top: -50px;
 }
-
 
 .navbar .links-container {
   position: flex;
@@ -254,8 +253,6 @@ text-transform: capitalize;
 text-decoration: none;
 cursor: pointer;
 }
-
-
 
 .links-container .navbar-link:active {
  background-color: white;
@@ -350,10 +347,11 @@ h1 {
   text-align: center;
   color: #ffffff;
   }
-  .header-container .wrapper {
-    padding-top: 120px;
-    z-index: 2;
-    position: relative; }
+.header-container .wrapper {
+  padding-top: 120px;
+  z-index: 2;
+  position: relative;
+}
 
 #intro .bcg {
  min-height: 527px;
@@ -388,15 +386,15 @@ h1 {
     min-height: 410px;
    }
 
-     #social .bcg {
-       background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
-       background-size: cover;
-       min-height: 400px;
-      }
+ #social .bcg {
+   background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
+   background-size: cover;
+   min-height: 400px;
+  }
 
-    a #nav_logo {
-      font-family: sans-serif;;
-    }
+  a #nav_logo {
+    font-family: sans-serif;;
+  }
 
 /* =Navigation */
 nav {
@@ -468,9 +466,9 @@ nav {
 }
 
 .center {
-  position:absolute;
-    display:inline;
-    left: calc(50% - 139px);
+   position:absolute;
+   display:inline;
+   left: calc(50% - 139px);
 }
 .center a {
   position: relative;
@@ -479,11 +477,13 @@ nav {
 }
 
 .centered img {
-    margin-left: 70px;
     position: flex;
     margin-top: 15px;
     margin-bottom: -20px !important;
+    margin-right:50px;
+    margin-left:22%;
 }
+
 span.caret {
 position:absolute;
 right: 100px;
@@ -510,12 +510,6 @@ font-weight: lighter;
   background: #003F87	;
   box-shadow: 1px 2px 4px #222;
   color: #fff;
-}
-
-#center-button {
-  position: absolute;
-  display: inline;
-  left: calc(50% - 149px);
 }
 
 .box {
@@ -598,10 +592,15 @@ p {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);}
 
-.review {
-  cursor: ns-resize;
-  color: black;
-}
+  .review {
+    cursor: ns-resize;
+    color: black;
+  }
+
+  .call-button {
+    position: absolute;
+    left: calc(50% - 228px);"
+  }
 
 
 /* =Footer */
@@ -864,10 +863,16 @@ p {
     }
 
     @media (max-width: 650px){
-      .desktop-only{
+      .desktop-only {
         display: none;
         color:black;
       }
+
+      .call-button {
+        position: absolute;
+        left: calc(50% - 138px);"
+      }
+
       div#intro.header-container {
         min-height:630px;
         opacity: .89;
@@ -877,11 +882,11 @@ p {
       .scroll-down {
         display: none !important;
       }
+      .centered img {
+          margin-left:9%;
+      }
     }
     @media (max-width: 767px){
-      .centered img{
-        margin: 20px;
-      }
 
       .centered div {
         margin-bottom:29px;
@@ -889,23 +894,17 @@ p {
 
       .row {
         text-align: center;
-
       }
 
     }
-    @media (min-width: 650px){
+    @media (min-width: 651px){
       .mobile-only{
         display: none;
       }
 
-      #center-button{
-        top: 249px;
+      #intro.header-container.fs {
+        min-height:680px;
       }
-
-    #intro.header-container.fs {
-      min-height:680px;
-    }
-
 
       #intro div.well {
         margin-top:50px;
@@ -925,19 +924,21 @@ p {
          top: -55px;
          left: calc(50% - 299px);
          text-align: center;
-       float: none;
-       clear: all;
+         float: none;
+         clear: all;
       }
     }
 
-    @media(max-width:767px) and (max-height: 470px) {
- div#intro.header-container {
-   min-height:630px;
- }
-  div .well {
-    font-weight:200;
-    opacity: .8;
-    color:white;
-    font-size-adjust: auto;
-  }
+  @media(max-width:767px) and (max-height: 470px) {
+
+     div#intro.header-container {
+       min-height:630px;
+     }
+    div .well {
+      font-weight:200;
+      opacity: .8;
+      color:white;
+      font-size-adjust: auto;
     }
+
+  }
