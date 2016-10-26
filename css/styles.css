@@ -156,6 +156,57 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+.square-icons {
+  background: url(../img/icons.png);
+  width: 180px;
+  height: 180px;
+  border: none;
+  outline: none;
+  margin: 1px;
+  z-index: 103;
+}
+
+.square-icons:hover {
+  cursor: pointer;
+}
+
+.rectangle-icons {
+  background: url(../img/icons.png);
+  width: 180px;
+  height: 80px;
+  border: none;
+  outline: none;
+  margin: 1px;
+  z-index: 103;
+}
+
+#first {
+  background-position: 0px 0px;
+}
+#second {
+  background-position: 360px 0px;
+}
+#third {
+  background-position: 180px 0px;
+}
+#fourth {
+  background-position: 0px 450px;
+}
+#fifth {
+  background-position: -180px 450px;
+}
+#sixth {
+  background-position: 0px -275px;
+}
+#seventh {
+  background-position: -180px -270px;
+}
+#eigth {
+  background-position: -360px -280px;
+}
+#ninth {
+  background-position: -180px -450px;
+}
 .navigation {
   position: fixed;
   top:0; left: 0;
@@ -192,7 +243,7 @@ a.navbar-link {
 }
 
 #cb03 {
-  background: #D0FFFD;
+  background: #003F87;
 }
 
 .dropdown-menu li a{
@@ -206,7 +257,7 @@ div .bcg {
   clear:all;
   font-size: 29px;
   height: 10px;
-  background: teal;
+  background: black;
   text-align: left;
   padding-right: 20px;
   padding-bottom: 55px;
@@ -217,7 +268,7 @@ div .bcg {
    font-size: 25px;
    top: -100px;
    text-decoration: none;
-   color: cyan;
+   color: white;
 }
 
 .sticky strong {
@@ -942,14 +993,12 @@ p {
     }
 
   }
-  @media (max-width: 200px) {
+  @media (max-width: 250px) {
       .navigation {
           visibility:hidden;
       }
 
-      .navigation.sticky {
-        display: none;
-      }
+
       /*make positions non fixed?*/
 
       div#intro {
