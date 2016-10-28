@@ -180,6 +180,8 @@ html {
   z-index: 103;
 }
 
+
+
 #first {
   background-position: 0px 0px;
 }
@@ -423,22 +425,27 @@ h1 {
     padding:10px;
   }
   #slide01 .bcg {
-    background: url(../img/instore.png) no-repeat center center;
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px; }
   #slide02 .bcg {
-    background: url(../img/instore2.png) no-repeat center center;
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px; }
+    #slide02 h1{
+      color: black;
+    }
 
-  #slide03 .bcg {
-    background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
+  #slide03 .bcg{
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px;
    }
 
+
+
  #social .bcg {
-   background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
+   background: rgb(250, 250, 249) no-repeat center center;
    background-size: cover;
    min-height: 400px;
   }
@@ -648,6 +655,7 @@ p {
     color: black;
   }
 
+
   .call-button {
     position: absolute;
     left: calc(50% - 228px);"
@@ -659,7 +667,9 @@ p {
   text-align: center;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #06060d; }
+  background-color: #06060d;
+  height: 900px;
+ }
   .footer-container h3 {
     margin: 0;
     padding: 20px 20px 20px 20px;
