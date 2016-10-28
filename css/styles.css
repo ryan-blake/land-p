@@ -519,7 +519,7 @@ nav {
 .center {
    position:absolute;
    display:inline;
-   left: calc(50% - 139px);
+   left: calc(50% - 239px);
 }
 .center a {
   position: relative;
