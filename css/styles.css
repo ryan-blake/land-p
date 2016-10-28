@@ -928,7 +928,7 @@ p {
         font-weight: 200;
         font-size:smaller;
       }
-      div#intro {
+      .gunsmith#intro {
         min-height:1800px ;
 
       }
@@ -971,9 +971,9 @@ p {
       }
     }
     @media (min-width:650px){
-      div#intro {
+      .gunsmith#intro {
         min-height:1200px !important;
-
+        top:0px;
       }
 
     @media (min-width:761px) and (max-width: 1020px) {
@@ -998,16 +998,13 @@ p {
       color:white;
       font-size-adjust: auto;
     }
-
   }
-  @media (max-width: 250px) {
+  @media (max-width: 310px) {
       .navigation {
           visibility:hidden;
       }
 
-
-      /*make positions non fixed?*/
-
       div#intro {
         min-height:690px;
       }
+    }
