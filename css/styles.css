@@ -406,7 +406,7 @@ h1 {
 
 #intro .bcg {
  min-height: 527px;
- top:59px;
+ top:55px;
 }
 
 .bcg {
@@ -697,7 +697,7 @@ p {
    Media Queries
    ========================================================================== */
   div #intro  {
-   min-height: 647px;
+   min-height: 697px;
   }
   body {
     font-weight: 100; }
@@ -925,11 +925,13 @@ p {
       }
 
       div#intro.header-container {
-        min-height:630px;
-        opacity: .89;
-        font-weight: 100;
+        font-weight: 200;
+        font-size:smaller;
       }
+      div#intro {
+        min-height:1800px ;
 
+      }
       .scroll-down {
         display: none !important;
       }
@@ -968,6 +970,11 @@ p {
         font-weight: 200;
       }
     }
+    @media (min-width:650px){
+      div#intro {
+        min-height:1200px !important;
+
+      }
 
     @media (min-width:761px) and (max-width: 1020px) {
        .title {
