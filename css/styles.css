@@ -1017,6 +1017,9 @@ p {
       color:white;
       font-size-adjust: auto;
     }
+  }
+
+@media(min-width:200px) and (max-width:490px) {
   .square-icons {
     background-size: 300%;
     width: 160px;
@@ -1063,12 +1066,7 @@ p {
 
     background-position: -160px -400px;
   }
-
-
-
-  }
-
-
+}
 
 
   @media (max-width: 310px) {
