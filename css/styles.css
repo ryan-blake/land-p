@@ -158,8 +158,9 @@ html {
 
 .square-icons {
   background: url(../img/icons.png);
-  width: 180px;
-  height: 180px;
+  background-size: 300%;
+  width: 160px;
+  height: 160px;
   border: none;
   outline: none;
   margin: 1px;
@@ -172,52 +173,59 @@ html {
 
 .rectangle-icons {
   background: url(../img/icons.png);
-  width: 180px;
-  height: 80px;
+  background-size: 300%;
+ width: 160px;
+ height:80px;
   border: none;
   outline: none;
   margin: 1px;
   z-index: 11;
 }
 
+.square-icons {
 
+}
+ .rectangle-icons {
+
+ }
 
 #first {
   max-width: 100%;
   background-position: 0px 0px;
 }
-#second {  max-width: 100%;
-
-  background-position: 360px 0px;
+#second {
+max-width: 100%;
+  background-position: 320px 0px;
 }
-#third {  max-width: 100%;
-
-  background-position: 180px 0px;
+#third {
+max-width: 100%;
+  background-position: 160px 0px;
 }
-#fourth {  max-width: 100%;
-
-  background-position: 0px 450px;
+#fourth {
+max-width: 100%;
+  background-position: 0px 400px;
 }
-#fifth {  max-width: 100%;
-
-  background-position: -180px 450px;
+#fifth {
+max-width: 100%;
+  background-position: -160px 400px;
 }
-#sixth {  max-width: 100%;
-
-  background-position: 0px -275px;
+#sixth {
+max-width: 100%;
+  background-position: 0px -245px;
 }
-#seventh {  max-width: 100%;
-
-  background-position: -180px -270px;
+#seventh {
+max-width: 100%;
+  background-position: -165px -240px;
 }
-#eigth {  max-width: 100%;
-
-  background-position: -360px -280px;
+#eigth {
+max-width: 100%;
+  background-position: -320px -240px;
 }
-#ninth {  max-width: 100%;
-
-  background-position: -180px -450px;
+#ninth {
+max-width: 100%;
+  background-position: -160px -400px;
 }
+
 .navigation {
   position: fixed;
   top:0; left: 0;
@@ -1018,55 +1026,6 @@ p {
       font-size-adjust: auto;
     }
   }
-
-@media(min-width:200px) and (max-width:490px) {
-  .square-icons {
-    background-size: 300%;
-    width: 160px;
-    height: 160px;
-  }
-   .rectangle-icons {
-     background-size: 300%;
-    width: 160px;
-    height:80px;
-   }
-
-  #first {
-    background-position: 0px 0px;
-  }
-  #second {
-
-    background-position: 320px 0px;
-  }
-  #third {
-
-    background-position: 160px 0px;
-  }
-  #fourth {
-
-    background-position: 0px 400px;
-  }
-  #fifth {
-
-    background-position: -160px 400px;
-  }
-  #sixth {
-
-    background-position: 0px -245px;
-  }
-  #seventh {
-
-    background-position: -165px -240px;
-  }
-  #eigth {
-
-    background-position: -320px -240px;
-  }
-  #ninth {
-
-    background-position: -160px -400px;
-  }
-}
 
 
   @media (max-width: 310px) {
