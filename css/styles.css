@@ -156,6 +156,11 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+  .intro-text {
+    color:black;
+    font-weight:bold
+  }
+
 .square-icons {
   background: url(../img/icons.png);
   background-size: 300%;
@@ -182,47 +187,32 @@ html {
   z-index: 11;
 }
 
-.square-icons {
-
-}
- .rectangle-icons {
-
- }
-
 #first {
-  max-width: 100%;
   background-position: 0px 0px;
 }
 #second {
-max-width: 100%;
   background-position: 320px 0px;
 }
 #third {
-max-width: 100%;
   background-position: 160px 0px;
 }
 #fourth {
-max-width: 100%;
+%;
   background-position: 0px 400px;
 }
 #fifth {
-max-width: 100%;
   background-position: -160px 400px;
 }
 #sixth {
-max-width: 100%;
   background-position: 0px -245px;
 }
 #seventh {
-max-width: 100%;
   background-position: -165px -240px;
 }
 #eigth {
-max-width: 100%;
   background-position: -320px -240px;
 }
 #ninth {
-max-width: 100%;
   background-position: -160px -400px;
 }
 
@@ -604,7 +594,9 @@ padding-right: 20px;
 
 
 .min_height {
-  min-height: 450px;}
+  min-height: 550px;}
+
+
 /* =Main */
 p {
   font-size: 16px; }
@@ -946,6 +938,10 @@ p {
         color:black;
       }
 
+      .min-header {
+        min-height: 800px;
+      }
+
       .call-button {
         position: absolute;
         left: calc(50% - 138px);"
@@ -957,7 +953,6 @@ p {
       }
       .gunsmith#intro {
         min-height:1800px ;
-
       }
       .scroll-down {
         display: none !important;
@@ -971,11 +966,12 @@ p {
       .centered div {
         margin-bottom:29px;
       }
-
+      .intro-text {
+        font-size:17px;
+    }
       .row {
         text-align: center;
       }
-
     }
     @media (min-width: 651px){
       .mobile-only{
@@ -994,8 +990,9 @@ p {
 
       #intro div.well p {
         opacity: 1;
-        font-weight: 200;
+        font-weight: 10;
       }
+
     }
     @media (min-width:650px){
       .gunsmith#intro {
@@ -1014,26 +1011,27 @@ p {
       }
     }
 
-  @media(min-width:400px) and (max-height: 767px) {
+  @media(min-width:300px) and (max-height: 767px) {
 
      div#intro.header-container {
-       min-height:630px;
+       min-height:730px;
      }
+
     div .well {
       font-weight:200;
       opacity: .8;
-      color:white;
+      color:black;
       font-size-adjust: auto;
     }
   }
 
 
-  @media (max-width: 310px) {
+  @media (min-width: 310px) {
       .navigation {
           visibility:hidden;
       }
 
-      div#intro {
+      div#intro .header-container{
         min-height:690px;
       }
     }
