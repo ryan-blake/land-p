@@ -177,7 +177,7 @@ html {
   border: none;
   outline: none;
   margin: 1px;
-  z-index: 103;
+  z-index: 11;
 }
 
 
@@ -1017,6 +1017,53 @@ p {
       color:white;
       font-size-adjust: auto;
     }
+  .square-icons {
+    background-size: 300%;
+    width: 160px;
+    height: 160px;
+  }
+   .rectangle-icons {
+     background-size: 300%;
+    width: 160px;
+    height:80px;
+   }
+
+  #first {
+    background-position: 0px 0px;
+  }
+  #second {
+
+    background-position: 320px 0px;
+  }
+  #third {
+
+    background-position: 160px 0px;
+  }
+  #fourth {
+
+    background-position: 0px 400px;
+  }
+  #fifth {
+
+    background-position: -160px 400px;
+  }
+  #sixth {
+
+    background-position: 0px -245px;
+  }
+  #seventh {
+
+    background-position: -165px -240px;
+  }
+  #eigth {
+
+    background-position: -320px -240px;
+  }
+  #ninth {
+
+    background-position: -160px -400px;
+  }
+
 
 
   }
