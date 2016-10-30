@@ -183,30 +183,39 @@ html {
 
 
 #first {
+  max-width: 100%;
   background-position: 0px 0px;
 }
-#second {
+#second {  max-width: 100%;
+
   background-position: 360px 0px;
 }
-#third {
+#third {  max-width: 100%;
+
   background-position: 180px 0px;
 }
-#fourth {
+#fourth {  max-width: 100%;
+
   background-position: 0px 450px;
 }
-#fifth {
+#fifth {  max-width: 100%;
+
   background-position: -180px 450px;
 }
-#sixth {
+#sixth {  max-width: 100%;
+
   background-position: 0px -275px;
 }
-#seventh {
+#seventh {  max-width: 100%;
+
   background-position: -180px -270px;
 }
-#eigth {
+#eigth {  max-width: 100%;
+
   background-position: -360px -280px;
 }
-#ninth {
+#ninth {  max-width: 100%;
+
   background-position: -180px -450px;
 }
 .navigation {
@@ -997,7 +1006,7 @@ p {
       }
     }
 
-  @media(max-width:767px) and (max-height: 470px) {
+  @media(min-width:400px) and (max-height: 767px) {
 
      div#intro.header-container {
        min-height:630px;
@@ -1008,7 +1017,13 @@ p {
       color:white;
       font-size-adjust: auto;
     }
+
+
   }
+
+
+
+
   @media (max-width: 310px) {
       .navigation {
           visibility:hidden;
