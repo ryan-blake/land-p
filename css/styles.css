@@ -203,7 +203,7 @@ html {
 }
 
 .modal-header {
-    padding: 2px 16px;
+    padding: 1px 1px;
     background-color: grey;
     color: white;
 }
@@ -1040,17 +1040,21 @@ p {
     }
 
     .modal-header {
-      height: 100px;
+      height: 60px;
       font-size: smaller;
+    }
+
+    .modal-header h2 {
+      font-size:20px;
     }
 
     .modal-body{
       color: black;
-}
-.modal-body p {
-  font-size: 16px;
+    }
+    .modal-body p {
+      font-size: 10px;
 
-}
+    }
 
     .min-header {
       min-height: 800px;
