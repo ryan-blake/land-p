@@ -156,8 +156,6 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
-
-
   .intro-text {
     color:black;
     font-weight:bold
@@ -973,6 +971,57 @@ p {
     }
   }
   @media (max-width: 767px){
+<<<<<<< HEAD
+
+    .centered div {
+      margin-bottom:29px;
+    }
+    .intro-text {
+      font-size:17px;
+  }
+    .row {
+      text-align: center;
+    }
+  }
+  @media (min-width: 651px){
+    .mobile-only{
+      display: none;
+    }
+
+    #intro.header-container.fs {
+      min-height:680px;
+    }
+
+    #intro div.well {
+      margin-top:50px;
+      opacity: .88;
+      background-color: white;
+    }
+
+    #intro div.well p {
+      opacity: 1;
+      font-weight: 10;
+    }
+
+  }
+  @media (min-width:650px){
+    .gunsmith#intro {
+      min-height:1200px !important;
+      top:0px;
+    }
+
+  @media (min-width:761px) and (max-width: 1020px) {
+     .title {
+       position: absolute;
+       top: -55px;
+       left: calc(50% - 299px);
+       text-align: center;
+       float: none;
+       clear: all;
+    }
+  }
+
+=======
 
     .centered div {
       margin-bottom:29px;
