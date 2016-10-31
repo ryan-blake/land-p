@@ -572,9 +572,11 @@ font-weight: lighter;
   text-align: center;
   border: none;
   box-shadow: 3px 5px 9px #222;
-    -webkit-box-shadow: 3px 5px 9px #222;
 }
+#cb03 img {
+  box-shadow: 3px 15px 29px #222;
 
+}
 #submit:hover {
   border: none;
   background: #003F87	;
