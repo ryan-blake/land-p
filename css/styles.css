@@ -176,7 +176,7 @@ html {
 
 /* Modal Content */
 .modal-content {
-    position: fixed;
+    position: relative;
     bottom: 0;
     background-color: #FAFAF9;
     width: 100%;
@@ -1040,14 +1040,17 @@ p {
     }
 
     .modal-header {
-
       height: 60px;
       font-size: smaller;
+      position:relative;
+      top:60px;
     }
 
     .modal-body{
       color: black;
-      position:relative;;
+      display: relative;
+      top:60px;
+      height:330px;
     }
     .modal-body p {
       font-size: 12px;
