@@ -104,8 +104,28 @@
           </div>
             <!-- <div class="box"> -->
             <div class="well">
-                <p class="intro-text">Armory Up sells dependable battle tested firearms online and in our store. We make purchasing firearms a simple process.
-               located in Southlake, TX across 114 from Southlake Town Square on Kimball AVE. Located next to Grapevine and Colleyville and just east of Trophy Club and Roanoke, serving the DFW metroplex and all of North Texas we are centrally located and easy to find!</p>
+              <p class="intro-text">Armory Up sells dependable battle tested firearms online and in our store. We make purchasing firearms a simple process.
+                located in Southlake, TX across 114 from Southlake Town Square on Kimball AVE. Located next to Grapevine and Colleyville and just east of Trophy Club and Roanoke, serving the DFW metroplex and all of North Texas we are centrally located and easy to find!
+              </p>
+               <button id="myBtn">FFL Transfers</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <span class="close">&times</span>
+                      <h2>Need A Firearm Shipped To You? </h2>
+
+                    </div>
+                    <div class="modal-body">
+                      <p>Armory Up provides local FFL transfers for guns shipped from other dealers. Please call ahead or stop in to arrange the transfer. Our standard transfer fee is $25.00 and $15.00 for military/veterans, law enforcement and first responders. </p>
+                      <p> We will need your dealer's contact information, including their phone number and email as well as your name and order number if you have one. After we receive a copy of the dealers license we will have the gun shipped to our store and notify you when they are available for pick up.</p>
+                       <p style="font-weight:bold">Note:</p><p> we do not provide transfers for class 3 products. Add $5.00 for each additional firearm being transferred. For multiple handgun and rifle transfers each firearm transferred will be full cost.<p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Modal -->
             </div>
             <a href="#slide03"><div class="glyphicon glyphicon-menu-down scroll-down " style="color:white; font-size:50px; width:100px; height: auto;"> </div></a>
           </div>
@@ -296,7 +316,7 @@
                   </a>
                 </div>
                 <div class="col-xs-6">
-                  <a href="http://www.s&w.com">
+                  <a href="http://www.smith-wesson.com">
                     <div id="eigth" class="square-icons">
                     </div>
                   </a>
@@ -338,5 +358,33 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
     </body>
 </html>
