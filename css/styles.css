@@ -660,7 +660,6 @@ p {
     transform: translate3d(0, 0, 0);}
 
   .review {
-    cursor: ns-resize;
     color: black;
   }
 
@@ -677,7 +676,7 @@ p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   background-color: #06060d;
-  height: 900px;
+  height: 740px;
  }
   .footer-container h3 {
     margin: 0;
@@ -923,100 +922,98 @@ p {
   h2, h3 {
     page-break-after: avoid; } }
 
-    @media (min-width: 750px) {
-      .locatable  {
-        display: block;
-        left: calc(55% - 200px);
-        position: absolute;
-      }
-
+  @media (min-width: 750px) {
+    .locatable  {
+      display: block;
+      left: calc(55% - 200px);
+      position: absolute;
     }
 
-    @media (max-width: 650px){
-      .desktop-only {
-        display: none;
-        color:black;
-      }
+  }
 
-      .min-header {
-        min-height: 800px;
-      }
-
-      .call-button {
-        position: absolute;
-        left: calc(50% - 138px);"
-      }
-
-      div#intro.header-container {
-        font-weight: 200;
-        font-size:smaller;
-      }
-      .gunsmith#intro {
-        min-height:1800px ;
-      }
-      .scroll-down {
-        display: none !important;
-      }
-      .centered img {
-          margin-left:9%;
-      }
+  @media (max-width: 650px){
+    .desktop-only {
+      display: none;
+      color:black;
     }
-    @media (max-width: 767px){
 
-      .centered div {
-        margin-bottom:29px;
-      }
-      .intro-text {
-        font-size:17px;
+    .min-header {
+      min-height: 800px;
     }
-      .row {
-        text-align: center;
-      }
+
+    .call-button {
+      position: absolute;
+      left: calc(50% - 138px);"
     }
-    @media (min-width: 651px){
-      .mobile-only{
-        display: none;
-      }
 
-      #intro.header-container.fs {
-        min-height:680px;
-      }
-
-      #intro div.well {
-        margin-top:50px;
-        opacity: .88;
-        background-color: white;
-      }
-
-      #intro div.well p {
-        opacity: 1;
-        font-weight: 10;
-      }
-
+    div#intro.header-container {
+      font-weight: 200;
+      font-size:smaller;
     }
-    @media (min-width:650px){
-      .gunsmith#intro {
-        min-height:1200px !important;
-        top:0px;
-      }
-
-    @media (min-width:761px) and (max-width: 1020px) {
-       .title {
-         position: absolute;
-         top: -55px;
-         left: calc(50% - 299px);
-         text-align: center;
-         float: none;
-         clear: all;
-      }
+    .gunsmith#intro {
+      min-height:1800px ;
     }
+    .scroll-down {
+      display: none !important;
+    }
+    .centered img {
+        margin-left:9%;
+    }
+  }
+  @media (max-width: 767px){
+
+    .centered div {
+      margin-bottom:29px;
+    }
+    .intro-text {
+      font-size:17px;
+  }
+    .row {
+      text-align: center;
+    }
+  }
+  @media (min-width: 651px){
+    .mobile-only{
+      display: none;
+    }
+
+    #intro.header-container.fs {
+      min-height:680px;
+    }
+
+    #intro div.well {
+      margin-top:50px;
+      opacity: .88;
+      background-color: white;
+    }
+
+    #intro div.well p {
+      opacity: 1;
+      font-weight: 10;
+    }
+
+  }
+  @media (min-width:650px){
+    .gunsmith#intro {
+      min-height:1200px !important;
+      top:0px;
+    }
+
+  @media (min-width:761px) and (max-width: 1020px) {
+     .title {
+       position: absolute;
+       top: -55px;
+       left: calc(50% - 299px);
+       text-align: center;
+       float: none;
+       clear: all;
+    }
+  }
 
   @media(min-width:300px) and (max-height: 767px) {
-
-     div#intro.header-container {
-       min-height:730px;
-     }
-
+   div#intro.header-container {
+     min-height:730px;
+   }
     div .well {
       font-weight:200;
       opacity: .8;
@@ -1025,13 +1022,8 @@ p {
     }
   }
 
-
   @media (min-width: 310px) {
-      .navigation {
-          visibility:hidden;
-      }
-
-      div#intro .header-container{
-        min-height:690px;
-      }
+    div#intro .header-container{
+      min-height:690px;
     }
+  }
