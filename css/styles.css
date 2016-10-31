@@ -574,7 +574,7 @@ font-weight: lighter;
   box-shadow: 3px 5px 9px #222;
 }
 #cb03 img {
-  box-shadow: 3px 15px 29px #222;
+  box-shadow: 3px 5px 12px #222;
 
 }
 #submit:hover {
@@ -971,7 +971,6 @@ p {
     }
   }
   @media (max-width: 767px){
-<<<<<<< HEAD
 
     .centered div {
       margin-bottom:29px;
@@ -1021,7 +1020,6 @@ p {
     }
   }
 
-=======
 
     .centered div {
       margin-bottom:29px;
