@@ -676,7 +676,10 @@ p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   background-color: #06060d;
-  height: 740px;
+  height:150px;
+ }
+ .h-foot.footer-container {
+   min-height: 740px;
  }
   .footer-container h3 {
     margin: 0;
