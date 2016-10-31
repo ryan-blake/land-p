@@ -156,10 +156,18 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+
+
+  .intro-text {
+    color:black;
+    font-weight:bold
+  }
+
 .square-icons {
   background: url(../img/icons.png);
-  width: 180px;
-  height: 180px;
+  background-size: 300%;
+  width: 160px;
+  height: 160px;
   border: none;
   outline: none;
   margin: 1px;
@@ -172,41 +180,44 @@ html {
 
 .rectangle-icons {
   background: url(../img/icons.png);
-  width: 180px;
-  height: 80px;
+  background-size: 300%;
+ width: 160px;
+ height:80px;
   border: none;
   outline: none;
   margin: 1px;
-  z-index: 103;
+  z-index: 11;
 }
 
 #first {
   background-position: 0px 0px;
 }
 #second {
-  background-position: 360px 0px;
+  background-position: 320px 0px;
 }
 #third {
-  background-position: 180px 0px;
+  background-position: 160px 0px;
 }
 #fourth {
-  background-position: 0px 450px;
+%;
+  background-position: 0px 400px;
 }
 #fifth {
-  background-position: -180px 450px;
+  background-position: -160px 400px;
 }
 #sixth {
-  background-position: 0px -275px;
+  background-position: 0px -245px;
 }
 #seventh {
-  background-position: -180px -270px;
+  background-position: -165px -240px;
 }
 #eigth {
-  background-position: -360px -280px;
+  background-position: -320px -240px;
 }
 #ninth {
-  background-position: -180px -450px;
+  background-position: -160px -400px;
 }
+
 .navigation {
   position: fixed;
   top:0; left: 0;
@@ -243,7 +254,11 @@ a.navbar-link {
 }
 
 #cb03 {
-  background: #003F87;
+  background: #003F87; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FAFAF9, #003F87); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FAFAF9, #003F87); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FAFAF9, #003F87); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FAFAF9, #003F87)
 }
 
 .dropdown-menu li a{
@@ -406,7 +421,7 @@ h1 {
 
 #intro .bcg {
  min-height: 527px;
- top:59px;
+ top:55px;
 }
 
 .bcg {
@@ -423,22 +438,27 @@ h1 {
     padding:10px;
   }
   #slide01 .bcg {
-    background: url(../img/instore.png) no-repeat center center;
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px; }
   #slide02 .bcg {
-    background: url(../img/instore2.png) no-repeat center center;
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px; }
+    #slide02 h1{
+      color: black;
+    }
 
-  #slide03 .bcg {
-    background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
+  #slide03 .bcg{
+    background: rgb(250, 250, 249) no-repeat center center;
     background-size: cover;
     min-height: 410px;
    }
 
+
+
  #social .bcg {
-   background: url(../img/consignmentArmoryUp.jpg) no-repeat center center;
+   background: rgb(250, 250, 249) no-repeat center center;
    background-size: cover;
    min-height: 400px;
   }
@@ -555,7 +575,10 @@ font-weight: lighter;
   border: none;
   box-shadow: 3px 5px 9px #222;
 }
+#cb03 img {
+  box-shadow: 3px 15px 29px #222;
 
+}
 #submit:hover {
   border: none;
   background: #003F87	;
@@ -580,7 +603,9 @@ padding-right: 20px;
 
 
 .min_height {
-  min-height: 450px;}
+  min-height: 550px;}
+
+
 /* =Main */
 p {
   font-size: 16px; }
@@ -644,9 +669,9 @@ p {
     transform: translate3d(0, 0, 0);}
 
   .review {
-    cursor: ns-resize;
     color: black;
   }
+
 
   .call-button {
     position: absolute;
@@ -659,7 +684,12 @@ p {
   text-align: center;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #06060d; }
+  background-color: #06060d;
+  height:150px;
+ }
+ .h-foot.footer-container {
+   min-height: 740px;
+ }
   .footer-container h3 {
     margin: 0;
     padding: 20px 20px 20px 20px;
@@ -697,7 +727,7 @@ p {
    Media Queries
    ========================================================================== */
   div #intro  {
-   min-height: 647px;
+   min-height: 697px;
   }
   body {
     font-weight: 100; }
@@ -904,103 +934,108 @@ p {
   h2, h3 {
     page-break-after: avoid; } }
 
-    @media (min-width: 750px) {
-      .locatable  {
-        display: block;
-        left: calc(55% - 200px);
-        position: absolute;
-      }
-
-    }
-
-    @media (max-width: 650px){
-      .desktop-only {
-        display: none;
-        color:black;
-      }
-
-      .call-button {
-        position: absolute;
-        left: calc(50% - 138px);"
-      }
-
-      div#intro.header-container {
-        min-height:630px;
-        opacity: .89;
-        font-weight: 100;
-      }
-
-      .scroll-down {
-        display: none !important;
-      }
-      .centered img {
-          margin-left:9%;
-      }
-    }
-    @media (max-width: 767px){
-
-      .centered div {
-        margin-bottom:29px;
-      }
-
-      .row {
-        text-align: center;
-      }
-
-    }
-    @media (min-width: 651px){
-      .mobile-only{
-        display: none;
-      }
-
-      #intro.header-container.fs {
-        min-height:680px;
-      }
-
-      #intro div.well {
-        margin-top:50px;
-        opacity: .88;
-        background-color: white;
-      }
-
-      #intro div.well p {
-        opacity: 1;
-        font-weight: 200;
-      }
-    }
-
-    @media (min-width:761px) and (max-width: 1020px) {
-       .title {
-         position: absolute;
-         top: -55px;
-         left: calc(50% - 299px);
-         text-align: center;
-         float: none;
-         clear: all;
-      }
-    }
-
-  @media(max-width:767px) and (max-height: 470px) {
-
-     div#intro.header-container {
-       min-height:630px;
-     }
-    div .well {
-      font-weight:200;
-      opacity: .8;
-      color:white;
-      font-size-adjust: auto;
+  @media (min-width: 750px) {
+    .locatable  {
+      display: block;
+      left: calc(55% - 200px);
+      position: absolute;
     }
 
   }
-  @media (max-width: 250px) {
-      .navigation {
-          visibility:hidden;
-      }
 
+  @media (max-width: 650px){
+    .desktop-only {
+      display: none;
+      color:black;
+    }
 
-      /*make positions non fixed?*/
+    .min-header {
+      min-height: 800px;
+    }
 
-      div#intro {
-        min-height:690px;
-      }
+    .call-button {
+      position: absolute;
+      left: calc(50% - 138px);"
+    }
+
+    div#intro.header-container {
+      font-weight: 200;
+      font-size:smaller;
+    }
+    .gunsmith#intro {
+      min-height:1800px ;
+    }
+    .scroll-down {
+      display: none !important;
+    }
+    .centered img {
+        margin-left:9%;
+    }
+  }
+  @media (max-width: 767px){
+
+    .centered div {
+      margin-bottom:29px;
+    }
+    .intro-text {
+      font-size:17px;
+  }
+    .row {
+      text-align: center;
+    }
+  }
+  @media (min-width: 651px){
+    .mobile-only{
+      display: none;
+    }
+
+    #intro.header-container.fs {
+      min-height:680px;
+    }
+
+    #intro div.well {
+      margin-top:50px;
+      opacity: .88;
+      background-color: white;
+    }
+
+    #intro div.well p {
+      opacity: 1;
+      font-weight: 10;
+    }
+
+  }
+  @media (min-width:650px){
+    .gunsmith#intro {
+      min-height:1200px !important;
+      top:0px;
+    }
+
+  @media (min-width:761px) and (max-width: 1020px) {
+     .title {
+       position: absolute;
+       top: -55px;
+       left: calc(50% - 299px);
+       text-align: center;
+       float: none;
+       clear: all;
+    }
+  }
+
+  @media(min-width:300px) and (max-height: 767px) {
+   div#intro.header-container {
+     min-height:730px;
+   }
+    div .well {
+      font-weight:200;
+      opacity: .8;
+      color:black;
+      font-size-adjust: auto;
+    }
+  }
+
+  @media (min-width: 310px) {
+    div#intro .header-container{
+      min-height:690px;
+    }
+  }
