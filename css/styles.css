@@ -1040,20 +1040,17 @@ p {
     }
 
     .modal-header {
+
       height: 60px;
       font-size: smaller;
     }
 
-    .modal-header h2 {
-      font-size:20px;
-    }
-
     .modal-body{
       color: black;
+      position:relative;;
     }
     .modal-body p {
-      font-size: 10px;
-
+      font-size: 12px;
     }
 
     .min-header {
