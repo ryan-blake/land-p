@@ -140,7 +140,7 @@ nav {
         position: relative;
         padding-right: 20px;
         color: $lightest;
-        text-decoration: none; 
+        text-decoration: none;
         &:hover {
             .nav-label {
                 transform: translateX(0);
@@ -157,9 +157,9 @@ nav {
         right: 0;
         top: 50%;
         background-color: transparentize($lightest,.1);
-        -webkit-border-radius: 100%; 
+        -webkit-border-radius: 100%;
         border-radius: 100%;
-        transform: translateY(-50%); 
+        transform: translateY(-50%);
         transition: all 0.3s linear;
     }
     .nav-label {
@@ -332,10 +332,7 @@ p {
     &.slideInUp3{transition-delay: 0.4s;}
 }
 
-#iht_logo {
-    width: 100px;
-    margin-bottom: 30px;
-}
+
 
 
 /* ==========================================================================
